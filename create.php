@@ -33,6 +33,10 @@
         $alamat=input($_POST["alamat"]);
         $nomor_telepon=input($_POST["nomor_telepon"]);
 
+        if (strlen($nama) <= 3)  {
+            echo "<div class='alert alert-danger'> Data Gagal disimpan.</div>";
+            return ;
+        }
 
         //Query input menginput data kedalam tabel anggota
         $sql="insert into pendaftar (nama,tempat_lahir,tanggal_lahir,gender,agama, alamat, nomor_telepon) values

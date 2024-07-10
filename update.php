@@ -6,9 +6,8 @@
 
 </head>
 <body>
-<nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark">
             <span class="navbar-brand mb-0 h1">Web Pendaftaran Online</span>
-
         </div>
     </nav>
 <div class="container">
